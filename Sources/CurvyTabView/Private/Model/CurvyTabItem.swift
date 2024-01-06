@@ -17,4 +17,3 @@ struct CurvyTabItem: Identifiable {
         self.select = AnyView(select)
     }
 }
-

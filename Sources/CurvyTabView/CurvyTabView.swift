@@ -1,3 +1,10 @@
+//
+//  CurvyTabView.swift
+//
+//
+//  Created by Aung Ko Min on 6/1/24.
+//
+
 import SwiftUI
 
 public struct CurvyTabView<SelectionValue, Background, Content> : View where SelectionValue : Hashable, Background : View, Content : View {
@@ -164,11 +171,3 @@ public extension CurvyTabView where SelectionValue: Hashable, Background: View, 
         self.onTapReceive = onTapReceive
     }
 }
-
-struct AxisTabView_Previews: PreviewProvider {
-    static var previews: some View {
-        TabViewPreview()
-    }
-}
-
-

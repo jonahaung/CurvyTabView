@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  CurvyTabItemModifier.swift
 //  
 //
 //  Created by Aung Ko Min on 6/1/24.
@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct CurvyTabItemPreferenceKey: PreferenceKey {
-
     typealias Value = [CurvyTabItem]
     static var defaultValue: [CurvyTabItem] = []
     static func reduce(value: inout [CurvyTabItem], nextValue: () -> [CurvyTabItem]) {
